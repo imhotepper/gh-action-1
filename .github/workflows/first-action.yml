@@ -1,0 +1,11 @@
+name: first worklflow
+on: workflow_dispatch
+jobs:
+  first-jos:
+    runs-on: ubuntu-linux
+    steps:
+      - name: Print greeting
+        run: echo "Hello word"!
+      - name: Print goodby
+        run: echo "bye..."
+     
